@@ -6,6 +6,7 @@ body {
 /*calculator - rovnání na střed*/
 .container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -80,4 +81,14 @@ body {
 
 .calculator-button:active{
     transform: scale(0.9);
+}
+
+h1{
+    font-size: 6vw;
+    font-weight: bold;
+    font-family: Arial;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    z-index: 5;
 }
