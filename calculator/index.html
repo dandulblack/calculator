@@ -1,15 +1,29 @@
 <head>
     <link rel="stylesheet" type="text/css" href="index.css">
-    <script src="index.tsx"></script>
+    <script src="index.js" defer></script>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <title>calculator</title>
 <body>
     <div class="container">
-    <div class="main">
-
-
-
-    </div>
+        <div class="main">
+            <div class="calculator-bar">
+                <span class="calculator-bar-text" id="calculator-bar-id">klikněte na tlačítka</span>
+            </div>
+            <div class="calculator-buttons">
+                <button class="calculator-button" onclick="calculator(7)">7</button>
+                <button class="calculator-button" onclick="calculator(8)">8</button>
+                <button class="calculator-button" onclick="calculator(9)">9</button>
+                <button class="calculator-button" onclick="calculator('+')">+</button>
+                <button class="calculator-button" onclick="calculator(4)">4</button>
+                <button class="calculator-button" onclick="calculator(5)">5</button>
+                <button class="calculator-button" onclick="calculator(6)">6</button>
+                <button class="calculator-button" onclick="calculator('-')">-</button>
+                <button class="calculator-button" onclick="calculator(1)">1</button>
+                <button class="calculator-button" onclick="calculator(2)">2</button>
+                <button class="calculator-button" onclick="calculator(3)">3</button>
+                <button class="calculator-button" onclick="calculator('=')">=</button>
+            </div>
+        </div>
     </div>
 </body>

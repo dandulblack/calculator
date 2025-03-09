@@ -16,8 +16,68 @@ body {
 .main {
     background: #f1f1f1;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    height: 60%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    height: 34vw;
     width: 30%;
+    background-color: gray;
+}
+
+/*rovnaní spanu na vršek kalkulačky*/
+.calculator-bar{
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+/*text v spanu*/
+.calculator-bar-text{
+    font-size: 2.5vw;
+    font-weight: bold;
+    font-family: Arial;
+    padding: 1.25vw;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    max-width: 90%;       
+    overflow-x: auto;          /* Umožní horizontální posuvník */
+    white-space: nowrap;       /* Zabráni zalamování textu */
+    display: inline-block;     /* Aby span měl blokový kontext pro max-width */  
+}
+
+
+/*tlačítka*/
+.calculator-buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 40px;
+}
+
+/*tlačítko - styl*/
+.calculator-button{
+    padding: 20px;
+    font-size: 2vw;
+    font-weight: bold;
+    border-radius: 100%;
+    background-color: #f1f1f1;
+    color: black;
+    cursor: pointer;
+    border: none;
+    transition: transform 0.1s ease-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    height: 7.1vw;
+}
+
+.calculator-button:hover{
+    transform: scale(1.1);
+}
+
+.calculator-button:active{
+    transform: scale(0.9);
 }
