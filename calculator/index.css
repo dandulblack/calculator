@@ -45,9 +45,9 @@ body {
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     max-width: 90%;       
-    overflow-x: auto;          /* Umožní horizontální posuvník */
-    white-space: nowrap;       /* Zabráni zalamování textu */
-    display: inline-block;     /* Aby span měl blokový kontext pro max-width */  
+    overflow-x: auto;         
+    white-space: nowrap;       
+    display: inline-block;     
 }
 
 
