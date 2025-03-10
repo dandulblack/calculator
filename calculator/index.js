@@ -3,7 +3,7 @@ console.log(bar);
 let reset = false;
 
 function calculator(num) {
-    if (bar.innerText == "klikněte na tlačítka" || reset) {
+    if (bar.innerText == " " || reset) {
         bar.innerText = num;
         reset = false;
     } else {
@@ -16,7 +16,7 @@ function výsledek() {
         bar.innerText = eval(bar.innerText);
         reset = true;
     } catch {
-        bar.innerText = "chyba";
+        bar.innerText = "error";
         reset = true;
     }
 }
