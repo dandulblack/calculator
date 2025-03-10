@@ -37,17 +37,17 @@ body {
 
 /*text v spanu*/
 .calculator-bar-text{
-    font-size: 2.3vw;
+    font-size: 2.65vw;
     font-weight: bold;
     font-family: Arial;
-    padding: 1.5vw;
+    padding: 1.22vw;
     width: 100vw;
     background-color: black;
     color: white;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     max-width: 90%;    
-    height: 3vw;   
+    height: 3.2vw;   
     overflow-x: auto;         
     white-space: nowrap;       
     display: inline-block;     
@@ -59,14 +59,14 @@ body {
 .calculator-buttons{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 0.5vw;
     margin-top: 40px;
 }
 
 /*tlačítko - styl*/
 .calculator-button{
     padding: 20px;
-    font-size: 2vw;
+    font-size: 3vw;
     font-weight: bold;
     border-radius: 100%;
     background-color: #f1f1f1;
